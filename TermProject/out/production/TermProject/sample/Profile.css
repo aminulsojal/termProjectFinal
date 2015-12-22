@@ -1,0 +1,9 @@
+.root
+{
+    -fx-background-image: url("Profile.jpg");
+}
+.text-area
+{
+    -fx-background-color: blue;
+    -fx-text-fill: #cc268f;
+}

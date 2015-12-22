@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1224.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.signUpcontroller">
+   <children>
+      <Label layoutX="262.0" layoutY="85.0" prefHeight="28.0" prefWidth="95.0" text="First Name" textFill="#187bcc">
+         <font>
+            <Font name="Algerian" size="16.0" />
+         </font></Label>
+      <TextField fx:id="firstName" layoutX="469.0" layoutY="86.0" />
+      <TextField fx:id="lastNmae" layoutX="826.0" layoutY="85.0" />
+      <Label layoutX="699.0" layoutY="85.0" prefHeight="25.0" prefWidth="111.0" text="Last Name" textFill="#187bcc">
+         <font>
+            <Font name="Algerian" size="16.0" />
+         </font></Label>
+      <Label layoutX="260.0" layoutY="143.0" prefHeight="28.0" prefWidth="195.0" text="Choose Your Username" textFill="#187bcc">
+         <font>
+            <Font name="Algerian" size="16.0" />
+         </font></Label>
+      <TextField fx:id="userName" layoutX="469.0" layoutY="144.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="260.0" layoutY="213.0" prefHeight="25.0" prefWidth="176.0" text="Create a Password" textFill="#187bcc">
+         <font>
+            <Font name="Algerian" size="16.0" />
+         </font></Label>
+      <Label layoutX="262.0" layoutY="274.0" prefHeight="28.0" prefWidth="149.0" text="Confirm Password" textFill="#187bcc">
+         <font>
+            <Font name="Algerian" size="15.0" />
+         </font></Label>
+      <Label layoutX="262.0" layoutY="331.0" prefHeight="28.0" prefWidth="149.0" text="Institution Name" textFill="#187bcc">
+         <font>
+            <Font name="Algerian" size="16.0" />
+         </font></Label>
+      <TextField fx:id="instittionName" layoutX="469.0" layoutY="332.0" />
+      <Button fx:id="signUp" layoutX="944.0" layoutY="302.0" mnemonicParsing="false" onAction="#signUpOnAction" style="-fx-background-color: white;" text="SIGN UP" textFill="#187bcc">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font></Button>
+      <PasswordField fx:id="createAPassword" layoutX="469.0" layoutY="213.0" />
+      <PasswordField fx:id="confirmPassword" layoutX="469.0" layoutY="275.0" />
+      <Text fill="#187bcc" layoutX="271.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Class" wrappingWidth="131.00000521540642">
+         <font>
+            <Font name="Algerian" size="16.0" />
+         </font></Text>
+      <Button fx:id="back" layoutX="782.0" layoutY="302.0" mnemonicParsing="false" onAction="#backOnAction" text="BACK" textFill="#187bcc">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font></Button>
+      <Group layoutX="470.0" layoutY="403.0">
+         <children>
+            <RadioButton fx:id="HSC" layoutX="65.0" mnemonicParsing="false" onAction="#hscOnACtion" prefHeight="22.0" prefWidth="83.0" text="HSC" textFill="#187bcc">
+               <font>
+                  <Font name="Algerian" size="16.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="SSC" mnemonicParsing="false" onAction="#sscOnAction" prefHeight="22.0" prefWidth="64.0" text="SSC" textFill="#187bcc">
+               <font>
+                  <Font name="Algerian" size="16.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </Group>
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1224.0" style="-fx-background-image: answerPage;" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.chemistryShowResultController">
+   <children>
+      <Label layoutX="642.0" layoutY="204.0" prefHeight="33.0" prefWidth="264.0" text="Your Obtained Marks is" textFill="#bd10e0">
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font></Label>
+      <TextArea fx:id="showAnswer" editable="false" layoutX="916.0" layoutY="202.0" prefHeight="38.0" prefWidth="64.0">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="907.0" layoutY="399.0" mnemonicParsing="false" onAction="#gotoMainMenuOnAction" prefHeight="25.0" prefWidth="146.0" text="Go to Main Menu" textFill="#af0cc7">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="618.0" layoutY="399.0" mnemonicParsing="false" onAction="#profileOnAction" prefHeight="25.0" prefWidth="109.0" text="Your Profile" textFill="#cb0fd6">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

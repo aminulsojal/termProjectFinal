@@ -1,0 +1,12 @@
+.root
+{
+    -fx-background-image: url("StartExam.jpg");
+}
+.button
+{
+   //-fx-background-color: ;
+}
+.text-area
+{
+    -fx-background-color: blue;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1224.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.profileController">
+   <children>
+      <TextArea fx:id="profileDetails" layoutX="377.0" layoutY="326.0" prefHeight="224.0" prefWidth="564.0">
+         <font>
+            <Font name="Algerian" size="14.0" />
+         </font></TextArea>
+      <TextArea fx:id="userName" layoutX="646.0" layoutY="275.0" prefHeight="21.0" prefWidth="147.0">
+         <font>
+            <Font name="Algerian" size="12.0" />
+         </font></TextArea>
+      <Button layoutX="934.0" layoutY="56.0" mnemonicParsing="false" onAction="#gotoMainMenuOnAction" prefHeight="32.0" prefWidth="202.0" text="Go to Main Menu" textFill="#eb0e7a">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

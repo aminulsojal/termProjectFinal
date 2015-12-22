@@ -1,0 +1,13 @@
+.root
+{
+    -fx-background-image: url("signIn.jpg");
+}
+.button
+{
+   //-fx-background-color: ;
+}
+.text-field
+{
+    //fx-background-color: blue;
+    -fx-text-fill: #902196;
+}
